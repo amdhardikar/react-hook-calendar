@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/react-hook-calendar/static/css/main.49b776b7.css",
-    "main.js": "/react-hook-calendar/static/js/main.9d8dde8d.js",
+    "main.js": "/react-hook-calendar/static/js/main.b4de2f30.js",
     "static/js/787.2faa097d.chunk.js": "/react-hook-calendar/static/js/787.2faa097d.chunk.js",
     "static/media/background.svg": "/react-hook-calendar/static/media/background.5722ba0e3d6667088b2e.svg",
     "index.html": "/react-hook-calendar/index.html",
     "main.49b776b7.css.map": "/react-hook-calendar/static/css/main.49b776b7.css.map",
-    "main.9d8dde8d.js.map": "/react-hook-calendar/static/js/main.9d8dde8d.js.map",
+    "main.b4de2f30.js.map": "/react-hook-calendar/static/js/main.b4de2f30.js.map",
     "787.2faa097d.chunk.js.map": "/react-hook-calendar/static/js/787.2faa097d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.49b776b7.css",
-    "static/js/main.9d8dde8d.js"
+    "static/js/main.b4de2f30.js"
   ]
 }
