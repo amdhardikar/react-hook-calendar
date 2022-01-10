@@ -1,0 +1,75 @@
+.calendar-container {
+   width: 40vw;
+   padding: 40px 100px;
+   background-color: #2baa93;
+   color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+}
+.table__head,
+.table__data {
+   text-align: center;
+   font-size: 17px;
+}
+.table__head {
+   font-weight: 700;
+   padding: 10px;
+}
+.month__days {
+   width: 40px;
+   height: 40px;
+   line-height: 40px;
+   text-align: center;
+   margin: 0 auto;
+   border-radius: 50px;
+   cursor: pointer;
+   font-weight: 400;
+}
+.month__days:hover {
+   background-color: #c5c5c5b7;
+}
+.active {
+   background-color: #dc143c;
+   color: white;
+   font-weight: 800;
+}
+.active:hover {
+   background-color: #9c112d;
+}
+.present {
+   border: 1px solid #dc143c;   
+}
+.current-month {
+   border-spacing: 5px 20px;
+}
+.current-date {
+   text-align: center;
+   margin-bottom: 10px;
+}
+.current__year, .current__month {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+.year__body {
+   font-size: 8rem;
+   letter-spacing: 2px;
+   font-weight: 700;
+   margin-bottom: 10px;
+}
+.month__body {
+   font-size: 2.5rem;
+}
+.calendar__btn {
+   cursor: pointer;
+   background: transparent;
+   border: none;
+   outline: none;
+   font-size: 25px;
+   color: #ffffff1e;
+}
+.calendar__btn:hover {
+   color: #ffffff7e;
+}

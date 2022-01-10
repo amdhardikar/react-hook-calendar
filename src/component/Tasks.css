@@ -1,0 +1,92 @@
+.tasks-container {
+   width: 60vw;
+   height: 100vh;
+   padding: 50px 70px;
+}
+.tasks__container {
+   width: 100%;
+   height: calc(100% - 100px);
+   overflow-x: auto;
+}
+.single__task {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   cursor: pointer;
+   background-color: white;
+   border-radius: 5px;
+   width: 100%;
+   padding: 10px 10px 10px 15px;
+   display: flex;
+   align-items: center;
+   margin: 5px auto;
+}
+.single__task input[type='checkbox'] {
+   width: 15px;
+   height: 15px;
+}
+.single__task label {
+   flex-wrap: wrap;
+   width: 100%;
+   margin-left: 15px;
+   font-size: 18px;
+   font-weight: 500;
+}
+.cancel-btn {
+   color: white;
+   display: flex;
+   align-self: flex-end;
+   cursor: pointer;
+   outline: none;
+   background-color: #dc143c;
+}
+.cancel-btn:hover {
+   background-color: #9c112d;
+}
+.task-form {
+   border-radius: 5px;
+   width: 100%;
+   background-color: white;
+   padding: 10px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+}
+.task-form label {
+   text-transform: capitalize;
+   font-size: 18px;
+}
+.task-form input {
+   border: none;
+   width: 100%;
+   font-size: 18px;
+   padding: 5px 10px;
+}
+.task-form input:focus {
+   outline: none;
+}
+.btn-group {
+   display: flex;
+   align-items: center;
+}
+.task__btn {
+   margin: 0 10px;
+   font-size: 12px;
+   line-height: 12px;
+   padding: 9px;
+   border: none;
+   border-radius: 50px;
+   display: flex;
+   align-self: center;
+   justify-self: center;
+}
+.add-btn {
+   color: white;
+   cursor: pointer;
+   outline: none;
+   background-color: #2baa93;
+}
+.add-btn:hover {
+   background-color: #1f7968;
+}
